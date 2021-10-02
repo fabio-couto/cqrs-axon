@@ -1,0 +1,9 @@
+rootProject.name = 'services'
+
+include 'discovery-server'
+include 'api-gateway'
+include 'core'
+include 'orders-service'
+include 'product-service'
+include 'users-service'
+include 'payment-service'

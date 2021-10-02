@@ -1,0 +1,8 @@
+description 'users-service'
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation "org.axonframework:axon-spring-boot-starter:${axonVersion}"
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    implementation project(':core')
+}

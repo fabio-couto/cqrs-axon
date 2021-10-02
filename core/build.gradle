@@ -1,0 +1,11 @@
+description = 'core'
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation "org.axonframework:axon-spring-boot-starter:${axonVersion}"
+}
+
+bootJar {
+    enabled false
+}
